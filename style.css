@@ -18,8 +18,7 @@ header h1 span{
     font-weight: 200;
 }
 article{
-    display: table;
-    width: 1817px;
+    width: 100%;
 
 }
 
