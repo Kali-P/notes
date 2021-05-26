@@ -28,7 +28,8 @@
                 in-lined
                 graphics and hypertext views of existing bodies of<br>
                 information.</p>
-            <p>HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
+            <button onclick="more_1()" id="more_button1">read more...</button>
+            <p class="no" id="first_p">HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
                 specification
                 provides a number of new features ,and is broadly<br>
                 backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
@@ -37,10 +38,11 @@
                 specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC 1521)
                 called
                 "text/html;version=3.0".</p>
+            <button class="less_button" id="less_button1" onclick="less_1()">less</button>
     
         </section>
         
-        <section id="session2">
+        <section id="session2" >
             <h3>Session 2</h3>
             <time>May 19 Wednesday 2021</time>
             <p>HyperText Markup Language(HTML) is a simple markup system used to create hypertext documents that are
@@ -52,7 +54,8 @@
                 in-lined
                 graphics and hypertext views of existing bodies of<br>
                 information.</p>
-            <p>HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
+            <button onclick="more_2()" id="more_button2">read more...</button>
+            <p class="no" id="second_p">HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
                 specification
                 provides a number of new features ,and is broadly<br>
                 backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
@@ -61,10 +64,55 @@
                 specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC 1521)
                 called
                 "text/html;version=3.0".</p>
-                
+                <button class="less_button" id="less_button2" onclick="less_2()">less</button>    
         </section>
         
     </article>
 </body>
+
+<script>
+    var fp=document.getElementById("first_p");
+    var sp=document.getElementById("second_p");
+    var b1=document.getElementById("more_button1");
+    var b2=document.getElementById("more_button2");
+    var b3=document.getElementById("less_button1");
+    var b4=document.getElementById("less_button2");
+
+    function more_1(){
+        fp.style.display="block";
+        b1.style.display="none";
+        b3.style.display="block";
+
+
+    }
+   
+
+
+    function more_2(){
+        sp.style.display="block";
+        var b2=document.getElementById("more_button2");
+        b2.style.display="none";
+        b4.style.display="block";
+    }
+        
+    function less_1(){
+        fp.style.display="none";
+        b3.style.display="none";
+
+        b1.style.display="block";
+    }
+
+    function less_2(){
+        b4.style.display="none";
+        sp.style.display="none";
+        b2.style.display="block";
+    }
+
+
+
+
+    
+
+</script>
 
 </html>
