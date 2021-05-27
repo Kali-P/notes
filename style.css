@@ -4,14 +4,18 @@ body{
 }
 header{
     width: 100%;
-    font-size: 50px;
+    height: 120px;
+    font-size: 30px;
     background-color: black;
     color: white;
     margin: 0;
+    display: table;
 }
 header h1{
     margin: 0;
     padding-left: 12px;
+    display: table-cell;
+    vertical-align: middle;
 }
 
 
