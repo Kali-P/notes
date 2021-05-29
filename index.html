@@ -7,6 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -14,109 +20,105 @@
         <h1>Odessey <span>Academy</span></h1>
         <label id="menu"><a href="index.html">Menu</a></label>
     </header>
-    <br>
-    <br>
-    
-    <article>
-        <section id="session1">
 
-            <h1>NOTES</h1>
-            <h3>Session 1</h3>
-            <time>May 19 Wednesday 2021</time>
-            <p>HyperText Markup Language(HTML) is a simple markup system used to create hypertext documents that are
-                portable from
-                one platform to another.HTML documents are SGML<br>
-                documents with generic semantics that are approprite for representing information from a wide range of
-                applications.HTML markup can represent hypertext news,mail,<br>
-                documentation and hypermedia;menus of options;database query results;simple structured documents with
-                in-lined
-                graphics and hypertext views of existing bodies of<br>
-                information.</p>
-            <button onclick="more_1()" id="more_button1" class="read">read more...</button>
-            <p class="no" id="first_p">HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
-                specification
-                provides a number of new features ,and is broadly<br>
-                backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
-                ISO8879:1986
-                Standard Generalised Markup Language (SGML).This<br>
-                specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC 1521)
-                called
-                "text/html;version=3.0".</p>
-            <button class="less_button" id="less_button1" onclick="less_1()">less</button>
-    
-        </section>
-        
-        <section id="session2" >
-            <h3>Session 2</h3>
-            <time>May 19 Wednesday 2021</time>
-            <p>HyperText Markup Language(HTML) is a simple markup system used to create hypertext documents that are
-                portable from
-                one platform to another.HTML documents are SGML<br>
-                documents with generic semantics that are approprite for representing information from a wide range of
-                applications.HTML markup can represent hypertext news,mail,<br>
-                documentation and hypermedia;menus of options;database query results;simple structured documents with
-                in-lined
-                graphics and hypertext views of existing bodies of<br>
-                information.</p>
-            <button onclick="more_2()" id="more_button2">read more...</button>
-            <p class="no" id="second_p">HTML has been in use by the World-Wide-Web(WWW) global information initiative since 1990.The HTML 3.0
-                specification
-                provides a number of new features ,and is broadly<br>
-                backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
-                ISO8879:1986
-                Standard Generalised Markup Language (SGML).This<br>
-                specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC 1521)
-                called
-                "text/html;version=3.0".</p>
-                <button class="less_button" id="less_button2" onclick="less_2()">less</button>    
-        </section>
-        
-    </article>
+
+    <br>
+    <br>
+    <main class="container-md">
+
+
+        <article>
+            <section id="session1">
+
+                <h1>NOTES</h1>
+                <h3>Session 1</h3>
+                <time>May 19 Wednesday 2021</time>
+                <p>HyperText Markup Language(HTML) is a simple markup system used to create hypertext documents that are
+                    portable from
+                    one platform to another.HTML documents are SGML<br>
+                    documents with generic semantics that are approprite for representing information from a wide range
+                    of
+                    applications.HTML markup can represent hypertext news,mail,<br>
+                    documentation and hypermedia;menus of options;database query results;simple structured documents
+                    with
+                    in-lined
+                    graphics and hypertext views of existing bodies of<br>
+                    information.</p>
+                <p class="no" id="session_1">HTML has been in use by the World-Wide-Web(WWW) global information
+                    initiative
+                    since 1990.The HTML 3.0
+                    specification
+                    provides a number of new features ,and is broadly<br>
+                    backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
+                    ISO8879:1986
+                    Standard Generalised Markup Language (SGML).This<br>
+                    specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC
+                    1521)
+                    called
+                    "text/html;version=3.0".</p>
+                <button onclick="more('1')" id="button_1" class="btn btn-link">read more...</button>
+
+
+            </section>
+
+            <section id="session2">
+                <h3>Session 2</h3>
+                <time>May 19 Wednesday 2021</time>
+                <p>HyperText Markup Language(HTML) is a simple markup system used to create hypertext documents that are
+                    portable from
+                    one platform to another.HTML documents are SGML<br>
+                    documents with generic semantics that are approprite for representing information from a wide range
+                    of
+                    applications.HTML markup can represent hypertext news,mail,<br>
+                    documentation and hypermedia;menus of options;database query results;simple structured documents
+                    with
+                    in-lined
+                    graphics and hypertext views of existing bodies of<br>
+                    information.</p>
+                <p class="no" id="session_2">HTML has been in use by the World-Wide-Web(WWW) global information
+                    initiative since 1990.The HTML 3.0
+                    specification
+                    provides a number of new features ,and is broadly<br>
+                    backwards compatible with HTNL 2.0.It is defined as an application of International Standard ISO
+                    ISO8879:1986
+                    Standard Generalised Markup Language (SGML).This<br>
+                    specification will be provided as the Internet Media Type (RFC 1590) and MIME Content Type (RFC
+                    1521)
+                    called
+                    "text/html;version=3.0".</p>
+                    <button onclick="more('2')" id="button_2" class="btn btn-link">read more...</button>
+
+            </section>
+
+        </article>
+    </main>
 </body>
 
 <script>
-    var fp=document.getElementById("first_p");
-    var sp=document.getElementById("second_p");
-    var b1=document.getElementById("more_button1");
-    var b2=document.getElementById("more_button2");
-    var b3=document.getElementById("less_button1");
-    var b4=document.getElementById("less_button2");
 
-    function more_1(){
-        fp.style.display="block";
-        b1.style.display="none";
-        b3.style.display="block";
+        function more(session_id) {
+            const button_id="button_"+session_id
+            const article_id="session_"+session_id
+            const button=document.getElementById(button_id)
+            const article=document.getElementById(article_id)
+            const styles=getComputedStyle(article)
+            console.log(styles.display)
+
+
+        if (styles.display=="none") {
+            button.innerHTML = "less"
+            article.style.display="block"
+            
+
+        } else {
+            button.innerHTML = "read more..."
+            article.style.display="none"
+
+        }
+
 
 
     }
-   
-
-
-    function more_2(){
-        sp.style.display="block";
-        var b2=document.getElementById("more_button2");
-        b2.style.display="none";
-        b4.style.display="block";
-    }
-        
-    function less_1(){
-        fp.style.display="none";
-        b3.style.display="none";
-
-        b1.style.display="block";
-    }
-
-    function less_2(){
-        b4.style.display="none";
-        sp.style.display="none";
-        b2.style.display="block";
-    }
-
-
-
-
-    
-
 </script>
 
 </html>
